@@ -54,3 +54,18 @@ $font: "Montserrat", "Poppins";
         font-weight: bolder;
     }
 }
+
+@media screen and (max-width: 1920px) {
+    .relogio {
+        margin: auto;
+        padding-top: 10rem;
+        #imps {
+            #horas, #minutos, #segundos {
+                font-size: 190px;
+            }
+            .tempo, .minutos, .segundos {
+                font-size: 35px;
+            }
+        }
+    }
+}

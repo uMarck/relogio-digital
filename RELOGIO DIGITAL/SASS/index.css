@@ -47,4 +47,17 @@
 .relogio #horas, .relogio #minutos, .relogio #segundos {
   font-size: 155px;
   font-weight: bolder;
+}
+
+@media screen and (max-width: 1920px) {
+  .relogio {
+    margin: auto;
+    padding-top: 10rem;
+  }
+  .relogio #imps #horas, .relogio #imps #minutos, .relogio #imps #segundos {
+    font-size: 190px;
+  }
+  .relogio #imps .tempo, .relogio #imps .minutos, .relogio #imps .segundos {
+    font-size: 35px;
+  }
 }/*# sourceMappingURL=index.css.map */
