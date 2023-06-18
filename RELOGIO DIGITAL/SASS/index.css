@@ -60,4 +60,27 @@
   .relogio #imps .tempo, .relogio #imps .minutos, .relogio #imps .segundos {
     font-size: 35px;
   }
+}
+@media screen and (max-width: 1366px) {
+  .relogio {
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .relogio h1 {
+    margin-top: 0;
+    padding-top: 5rem;
+    font-size: 95px;
+  }
+  .relogio #imps {
+    padding-top: 5rem;
+  }
+  .relogio #imps #points {
+    text-align: center;
+    display: grid;
+    place-items: center;
+    padding: 4rem;
+  }
+  .relogio #imps #points #horas, .relogio #imps #points #minutos, .relogio #imps #points #segundos {
+    font-size: 85px;
+  }
 }/*# sourceMappingURL=index.css.map */
