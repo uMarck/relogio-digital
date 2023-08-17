@@ -137,6 +137,34 @@ $font: "Montserrat", "Poppins";
     }
 }
 
+@media screen and (max-width: 375px) {
+     .relogio {
+        h1 {
+            font-size: 35px;
+            margin: 0;
+            padding: 1rem 0 0 0;
+        }
+        #imps {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 0;
+            #points {
+                width: 85%;
+                padding:1rem;
+                margin: 1rem;
+                #horas, #minutos, #segundos {
+                        font-size: 75px;
+                    }
+                span {
+                    
+                    font-size: 20px
+                }
+            }
+        }
+    }
+}
+
 @media screen and (max-width: 360px) {
     .relogio {
         h1 {
@@ -165,30 +193,3 @@ $font: "Montserrat", "Poppins";
     }
 }
 
-@media screen and (max-width: 375px) {
-     .relogio {
-        h1 {
-            font-size: 35px;
-            margin: 0;
-            padding: 1rem 0 0 0;
-        }
-        #imps {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            padding: 0;
-            #points {
-                width: 85%;
-                padding:1rem;
-                margin: 1rem;
-                #horas, #minutos, #segundos {
-                        font-size: 75px;
-                    }
-                span {
-                    
-                    font-size: 20px
-                }
-            }
-        }
-    }
-}
